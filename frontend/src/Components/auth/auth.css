@@ -1,0 +1,165 @@
+.auth-container {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	max-width: 500px;
+	position: relative;
+	margin: 0px auto;
+}
+
+.login-dismiss,
+.login-top,
+.login-center,
+.login-bottom,
+.signup-dismiss,
+.signup-top,
+.signup-center,
+.signup-bottom {
+	padding: 15px;
+}
+.signup-dismiss,
+.login-dismiss {
+	position: absolute;
+	cursor: pointer;
+	right: 15px;
+	top: 5px;
+	padding: 0;
+	font-size: 25px;
+}
+.signup-top,
+.login-top {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin: 40px 0px 10px 0px;
+}
+.auth-container hr {
+	border: none;
+	border-top: 1px solid #ccc;
+	outline: none;
+}
+
+.signup-center form .signup-username,
+.signup-password,
+.signup-repassword,
+.signup-otp,
+.signup-email,
+.signup-name,
+.login-center form .login-username,
+.login-password {
+	display: flex;
+	flex-direction: column;
+}
+
+.signup-center form input,
+.login-center form input {
+	font-size: 15px;
+	padding: 3px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+	border-radius: 5px;
+}
+.signup-center form label,
+.login-center form label {
+	margin-top: 5px;
+}
+.signup-center form button,
+.login-center form button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 20px;
+	font-style: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	color: white;
+}
+.login-center form span {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.signup-bottom button,
+.login-bottom button {
+	padding: 8px 5px;
+	font-size: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	color: blue;
+	background-color: white;
+}
+.signup-email button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	background-color: rgb(172, 0, 0);
+}
+.signup-button,
+.login-button {
+	width: 100%;
+	background-color: green;
+}
+.auth-container form p {
+	font-size: 10px;
+	color: gray;
+}
+@media only screen and (max-width: 768px) {
+	.auth-container {
+		margin: 0;
+		max-width: 768px;
+	}
+	.login .auth-container {
+		height: 100%;
+		width: 100vw;
+	}
+}
+@media only screen and (max-height: 1024px) and (min-height: 697px) {
+	.auth-container {
+		height: 100vh;
+	}
+	.login .auth-container {
+		height: 100vh;
+	}
+}
+@media only screen and (max-height: 437px) {
+	.login .auth-container {
+		min-height: 437px;
+	}
+}
+
+.validation-error {
+	border: 1px solid red !important;
+}
+.text-error {
+	color: red !important;
+	font-size: 13px !important;
+}
+button:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+.loader {
+	width: 15px;
+	height: 15px;
+	border: 3px solid white;
+	border-radius: 50%;
+	border-top: 3px transparent solid;
+	margin-right: 10px;
+	animation: spin 1s linear infinite;
+}
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,52 @@
+.card {
+	display: inline-block;
+	width: 200px;
+	height: 250px;
+	background-color: rgb(250, 250, 250);
+	box-shadow: 5px 5px 5px 5px rgb(230, 230, 230);
+	border-radius: 10px;
+	margin: 10px;
+}
+.card-head {
+	width: 100%;
+	height: 40%;
+}
+.card-head img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 100%;
+	height: 100%;
+}
+.card-body {
+	text-align: center;
+}
+.card-body-button {
+	outline: none;
+	border: none;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	margin: 15px;
+	padding: 5px;
+}
+.counter-buttons button {
+	padding: 0px 8px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+.counter-buttons button:first-child {
+	background-color: rgb(255, 130, 130);
+}
+.counter-buttons button:last-child {
+	background-color: rgb(130, 255, 130);
+}
+.counter {
+	display: inline-block;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}

@@ -1,0 +1,28 @@
+.shop {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.shop-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.shop-section h1 {
+	margin: 30px 0px;
+}
+.shop-section-inner {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.shop-section hr {
+	border: none;
+	border-top: 1px solid #ccc;
+	outline: none;
+}

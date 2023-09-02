@@ -1,0 +1,137 @@
+@import url(../../index.css);
+.topbar {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	background-color: darkblue;
+}
+.topbar-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.topbar-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex: 1;
+	height: 50px;
+	width: 100%;
+	padding: 0px 20px;
+	background-color: darkblue;
+	flex-direction: row;
+	z-index: 999;
+}
+.topbar-logo {
+	height: 40px;
+	min-width: 200px;
+	margin: 0px 20px;
+}
+.topbar-logo a {
+	height: 100%;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.topbar-logo a h1 {
+	color: white;
+}
+.topbar-logo a img {
+	height: 100%;
+	margin-right: 10px;
+}
+
+.topbar-item-left {
+	display: flex;
+	flex: 0.7;
+	align-items: center;
+}
+.topbar-item-center a:hover {
+	color: red;
+}
+a.active {
+	color: var(--greencolor);
+}
+.topbar-item-right {
+	display: flex;
+	flex: 0.3;
+	align-items: center;
+	justify-content: flex-end;
+}
+.topbar-search {
+	width: 70%;
+}
+
+.topbar-search input {
+	font-size: 15px;
+	padding: 2px 0px;
+	width: 85%;
+	text-align: center;
+	border: none;
+	outline: none;
+	border-top-left-radius: 80px;
+	border-bottom-left-radius: 80px;
+}
+.topbar-search button {
+	background-color: red;
+	color: var(--white);
+	font-size: 15px;
+	padding: 2px 10px 2px 3px;
+	border: none;
+	outline: none;
+	border-top-right-radius: 80px;
+	border-bottom-right-radius: 80px;
+}
+.topbar-button button {
+	background-color: darkblue;
+	color: var(--white);
+	font-size: 14px;
+	margin: 5px;
+	outline: none;
+	border: none;
+	transition: all 1s;
+}
+.topbar-button button:hover {
+	text-decoration: underline;
+}
+.topbar-button span {
+	color: var(--white);
+	margin: 5px;
+}
+
+.topbar-down {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.topbar-item-center {
+	display: flex;
+	/* flex: 1; */
+	align-items: center;
+	justify-content: center;
+}
+.topbar-item-left a {
+	text-decoration: none;
+	font-weight: 500;
+	padding: 10px;
+}
+.topbar-item-center a {
+	text-decoration: none;
+	color: var(--white);
+	font-weight: 500;
+	padding: 10px;
+}
+.topbar-user-img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.topbar-user-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
