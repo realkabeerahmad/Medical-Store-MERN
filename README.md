@@ -8,10 +8,6 @@ A web application for a medical store built using the MERN stack. This project i
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
@@ -38,7 +34,7 @@ A web application for a medical store built using the MERN stack. This project i
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/medical-store.git
+git clone git@github.com:realkabeerahmad/Medical-Store-MERN.git
 
 # Inside the server directory
 cd server
